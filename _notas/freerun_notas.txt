@@ -1,0 +1,9 @@
+GANCHO:
+	- por ahora creo que voy a centrarme en hacer que mientras se mantenga la tecla de gancho el jugador, después de una pequeña pausa (lo que tardaría en llegar el gancho), el jugador se quede enganchado al círuclo.
+	
+	- dudo si hacer que engancharte te suba un poco o el jugador tenga que saltar y engancharse. Creo que me gusta más la segunda pero tendré que probarlo
+
+
+HACIENDO AHORA:
+	- que el circleHook: cuando el jugador collisione con su collider pasarle el gameobject del collider con el que está colisionando. Si sale, ponerlo a null otra vez. si el jugador le da a la E y no es null, es que se puede enganchar. 
+	- luego seguramente tendré que poner que si le das a la e y ya estás enganchado, no compruebes nada simplemente te desengancehes. 
